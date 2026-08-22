@@ -332,7 +332,7 @@ async function askAI() {
       "Sorry, I couldn't connect " +
       "to the AI server. Make sure " +
       "server.js is running and your " +
-      "OPENAI_API_KEY is configured.";
+      "Gemini API key is configured.";
 
 
     renderSources([]);

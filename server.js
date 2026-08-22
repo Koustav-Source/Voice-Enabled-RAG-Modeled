@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = Number(process.env.PORT || 3000);
-const MODEL = process.env.OPENAI_MODEL || "gpt-5.6";
+const MODEL =process.env.GEMINI_MODEL || "gemini-3.1-flash-lite-preview";
 
 app.use(express.json({ limit: "1mb" }));
 
@@ -34,9 +34,10 @@ const knowledge = JSON.parse(
   )
 );
 
-const client = process.env.OPENAI_API_KEY
+const client = process.env.GEMINI_API_KEY
   ? new OpenAI({
-      apiKey: process.env.OPENAI_API_KEY
+      apiKey: process.env.GEMINI_API_KEY,
+      baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
     })
   : null;
 
@@ -64,10 +65,10 @@ function retrieve(question, topK = config.rag.topK) {
     ...new Set(tokenize(question))
   ];
 
-  const scored = knowledge.documents.map(doc => {
+  const scored = knowledge.map(doc => {
 
     const sourceText =
-      `${doc.title} ${doc.source} ${doc.text}`
+      `${doc.title} ${doc.source} ${doc.content}`
         .toLowerCase();
 
     const docTokens =
@@ -180,7 +181,7 @@ app.get("/api/health", (req, res) => {
     ok: true,
     model: MODEL,
     documents:
-      knowledge.documents.length
+      knowledge.length
   });
 });
 
@@ -272,22 +273,28 @@ ${context || "NO_RELEVANT_CONTEXT_FOUND"}
 `;
 
 
-    /* OPENAI RESPONSES API */
+    /* GEMINI CHAT COMPLETIONS API */
 
-    const response =
-      await client.responses.create({
+const response =
+  await client.chat.completions.create({
 
-        model: MODEL,
+    model: MODEL,
 
-        instructions,
+    messages: [
+      {
+        role: "system",
+        content: instructions
+      },
+      {
+        role: "user",
+        content: question
+      }
+    ]
+  });
 
-        input: question
-      });
-
-
-    const answer =
-      response.output_text?.trim() ||
-      "No grounded answer was generated.";
+const answer =
+  response.choices?.[0]?.message?.content?.trim() ||
+  "No grounded answer was generated.";
 
 
     res.json({
