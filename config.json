@@ -1,0 +1,21 @@
+{
+  "event": {
+    "name": "HACKER HOUSE GOA",
+    "location": "GOA, INDIA",
+    "dates": "28 – 31 OCT 2026"
+  },
+  "ui": {
+    "theme": {
+      "green": "#063d2c",
+      "yellow": "#ffd21c",
+      "red": "#ef3e32"
+    },
+    "assistantName": "Voice RAG Assistant",
+    "defaultLanguage": "en-IN"
+  },
+  "rag": {
+    "topK": 4,
+    "minimumScore": 0.08,
+    "maxContextCharacters": 9000
+  }
+}

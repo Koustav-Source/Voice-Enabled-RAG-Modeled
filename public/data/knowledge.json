@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Baga Beach",
+    "content": "Baga Beach is one of the popular beaches in North Goa. It is known for water sports, beach shacks, nightlife and a lively atmosphere.",
+    "category": "beaches"
+  },
+  {
+    "title": "Anjuna Beach",
+    "content": "Anjuna Beach is a popular North Goa destination known for its scenic coastline, beach atmosphere and flea market.",
+    "category": "beaches"
+  },
+  {
+    "title": "Calangute Beach",
+    "content": "Calangute Beach is one of the largest and most popular beaches in North Goa and is known for its tourism, water activities and beach shacks.",
+    "category": "beaches"
+  },
+  {
+    "title": "Fort Aguada",
+    "content": "Fort Aguada is a historic Portuguese fort in Goa overlooking the Arabian Sea. It is known for its architecture, lighthouse and sea views.",
+    "category": "history"
+  },
+  {
+    "title": "Chapora Fort",
+    "content": "Chapora Fort is a historic fort in North Goa famous for panoramic views of the coastline and surrounding landscape.",
+    "category": "history"
+  },
+  {
+    "title": "Goa",
+    "content": "Goa is a coastal state in western India known for beaches, Portuguese-influenced heritage, tourism, seafood, nightlife and cultural attractions.",
+    "category": "general"
+  },
+  {
+    "title": "North Goa",
+    "content": "North Goa is known for popular beaches, nightlife, water sports, beach shacks, markets and historic attractions.",
+    "category": "general"
+  },
+  {
+    "title": "South Goa",
+    "content": "South Goa is known for quieter beaches, scenic landscapes, resorts, churches and a more relaxed atmosphere.",
+    "category": "general"
+  }
+]
