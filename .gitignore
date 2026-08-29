@@ -23,3 +23,19 @@ coverage/
 uploads/
 tmp/
 .cache/
+
+# Server persistence
+server/data/
+data/vector-store.json
+
+# Client build
+client/dist/
+client/node_modules/
+
+# Server build
+server/dist/
+server/node_modules/
+
+# OS
+*.pem
+*.key

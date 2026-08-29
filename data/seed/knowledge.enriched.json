@@ -1,0 +1,82 @@
+[
+  {
+    "id": "baga_beach",
+    "title": "Baga Beach",
+    "content": "Baga Beach is one of the most popular beaches in North Goa, located close to Calangute. It is known for water sports including parasailing, jet skiing, and banana boat rides, vibrant beach shacks serving Goan seafood, nightlife with clubs like Tito's and Mambo's nearby, and a lively atmosphere that attracts both domestic and international tourists. The beach is part of a 7km stretch that includes Calangute and Candolim.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/baga-beach"
+  },
+  {
+    "id": "anjuna_beach",
+    "title": "Anjuna Beach",
+    "content": "Anjuna Beach is a popular North Goa destination known for its scenic rocky coastline, laid-back hippie culture, and the famous Wednesday flea market. The market offers souvenirs, handicrafts, clothes, jewelry, and local spices. Anjuna is also known for trance parties, beach shacks, and as a hub for backpackers. The beach has distinctive red cliffs and is ideal for swimming during safe seasons.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/anjuna-beach"
+  },
+  {
+    "id": "calangute_beach",
+    "title": "Calangute Beach",
+    "content": "Calangute Beach is one of the largest and most popular beaches in North Goa, often called the 'Queen of Beaches'. It is known for its extensive shoreline, water activities, beach shacks offering Goan cuisine, and vibrant tourism. Located 15km from Panaji, it offers parasailing, water skiing, and dolphin trips. The beach is busy year-round and has strong swimming currents, so caution is advised.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/calangute-beach"
+  },
+  {
+    "id": "palolem_beach",
+    "title": "Palolem Beach",
+    "content": "Palolem Beach is a pristine, crescent-shaped beach in South Goa known for being quieter and more relaxed than North Goa beaches. It is famous for silent noise parties where partygoers wear headphones, kayaking to Butterfly Island, dolphin spotting, and yoga retreats. The beach has gentle waves suitable for swimming and is lined with palm trees and beach huts. Ideal for peace seekers and families.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/palolem-beach"
+  },
+  {
+    "id": "fort_aguada",
+    "title": "Fort Aguada",
+    "content": "Fort Aguada is a historic Portuguese fort in Goa overlooking the Arabian Sea at Sinquerim. Built in 1612 to guard against Dutch and Maratha invasions, it is known for its well-preserved architecture, 13m high lighthouse built in 1864, and panoramic sea views. The fort housed a freshwater spring that gave water to passing ships - 'Aguada' means watery in Portuguese. Part of the fort is now a luxury hotel.",
+    "category": "history",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/fort-aguada"
+  },
+  {
+    "id": "chapora_fort",
+    "title": "Chapora Fort",
+    "content": "Chapora Fort is a historic fort in North Goa famous for panoramic views of Vagator Beach and the Arabian Sea. Built by the Portuguese in 1717 on the site of an older Muslim structure, it gained Bollywood fame from the movie Dil Chahta Hai. The fort is mostly in ruins but offers stunning sunset views, and the trek up is popular. It overlooks the Chapora River meeting the sea.",
+    "category": "history",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/chapora-fort"
+  },
+  {
+    "id": "goa_general",
+    "title": "Goa",
+    "content": "Goa is a coastal state in western India, India's smallest state by area but richest by GDP per capita. Known for beaches, 450 years of Portuguese-influenced heritage, churches like Basilica of Bom Jesus (UNESCO site), temples, spice plantations, seafood including fish curry rice, nightlife, and cultural attractions. Population 1.5M. Capital Panaji. Best time to visit is November to February. Official language Konkani, but English widely spoken.",
+    "category": "general",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/goa"
+  },
+  {
+    "id": "north_goa",
+    "title": "North Goa",
+    "content": "North Goa is the more commercialized and lively part of Goa, known for popular beaches like Baga, Calangute, Anjuna, Vagator, nightlife, water sports, beach shacks, flea markets at Anjuna and Mapusa, and historic attractions including Fort Aguada and Chapora Fort. It includes Panaji and Mapusa towns. Famous for clubs, casinos on Mandovi River, and vibrant backpacker culture. Better for party and activity seekers.",
+    "category": "general",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/north-goa"
+  },
+  {
+    "id": "south_goa",
+    "title": "South Goa",
+    "content": "South Goa is known for quieter, cleaner beaches, scenic landscapes, luxury resorts, Portuguese-era churches, and a more relaxed atmosphere. Beaches include Palolem, Colva, Benaulim, Varca, and Agonda. Ideal for peace, yoga retreats, honeymoons, and families. Also known for Dudhsagar Falls, one of India's tallest waterfalls, spice farms, and heritage churches in Old Goa. Less commercialized than North Goa, with more greenery and tranquility.",
+    "category": "general",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/south-goa"
+  },
+  {
+    "id": "dudhsagar_falls",
+    "title": "Dudhsagar Falls",
+    "content": "Dudhsagar Falls is one of India's tallest waterfalls at 310m, located on the Mandovi River in the Western Ghats on the Goa-Karnataka border. The name means 'Sea of Milk'. Best visited during monsoon (June-September) when flow is strongest. Accessible via trek or jeep safari from Mollem. Part of Bhagwan Mahavir Wildlife Sanctuary. The falls are famous for the railway track passing in front and being featured in Chennai Express movie.",
+    "category": "nature",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/dudhsagar-falls"
+  }
+]
