@@ -2,7 +2,7 @@
   {
     "id": "baga_beach",
     "title": "Baga Beach",
-    "content": "Baga Beach is one of the most popular beaches in North Goa, located close to Calangute. It is known for water sports including parasailing, jet skiing, and banana boat rides, vibrant beach shacks serving Goan seafood, nightlife with clubs like Tito's and Mambo's nearby, and a lively atmosphere that attracts both domestic and international tourists. The beach is part of a 7km stretch that includes Calangute and Candolim.",
+    "content": "Baga Beach is one of the most popular beaches in North Goa, located close to Calangute. It is known for water sports including parasailing, jet skiing, and banana boat rides, vibrant beach shacks serving Goan seafood, nightlife with clubs like Tito's and Mambo's nearby, and a lively atmosphere that attracts both domestic and international tourists. The beach is part of a 7km stretch that includes Calangute and Candolim. Best time to visit is November to March for pleasant weather and active shacks.",
     "category": "beaches",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/baga-beach"
@@ -10,7 +10,7 @@
   {
     "id": "anjuna_beach",
     "title": "Anjuna Beach",
-    "content": "Anjuna Beach is a popular North Goa destination known for its scenic rocky coastline, laid-back hippie culture, and the famous Wednesday flea market. The market offers souvenirs, handicrafts, clothes, jewelry, and local spices. Anjuna is also known for trance parties, beach shacks, and as a hub for backpackers. The beach has distinctive red cliffs and is ideal for swimming during safe seasons.",
+    "content": "Anjuna Beach is a popular North Goa destination known for its scenic rocky coastline, laid-back hippie culture, and the famous Wednesday flea market. The market offers souvenirs, handicrafts, clothes, jewelry, and local spices. Anjuna is also known for trance parties, beach shacks, and as a hub for backpackers. The beach has distinctive red cliffs and is ideal for swimming during safe seasons. Nearby attractions include Chapora Fort and Vagator Beach.",
     "category": "beaches",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/anjuna-beach"
@@ -18,7 +18,7 @@
   {
     "id": "calangute_beach",
     "title": "Calangute Beach",
-    "content": "Calangute Beach is one of the largest and most popular beaches in North Goa, often called the 'Queen of Beaches'. It is known for its extensive shoreline, water activities, beach shacks offering Goan cuisine, and vibrant tourism. Located 15km from Panaji, it offers parasailing, water skiing, and dolphin trips. The beach is busy year-round and has strong swimming currents, so caution is advised.",
+    "content": "Calangute Beach is one of the largest and most popular beaches in North Goa, often called the 'Queen of Beaches'. It is known for its extensive shoreline, water activities, beach shacks offering Goan cuisine, and vibrant tourism. Located 15km from Panaji, it offers parasailing, water skiing, and dolphin trips. The beach is busy year-round and has strong swimming currents, so caution is advised. The nearby Calangute Market is great for shopping.",
     "category": "beaches",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/calangute-beach"
@@ -26,15 +26,63 @@
   {
     "id": "palolem_beach",
     "title": "Palolem Beach",
-    "content": "Palolem Beach is a pristine, crescent-shaped beach in South Goa known for being quieter and more relaxed than North Goa beaches. It is famous for silent noise parties where partygoers wear headphones, kayaking to Butterfly Island, dolphin spotting, and yoga retreats. The beach has gentle waves suitable for swimming and is lined with palm trees and beach huts. Ideal for peace seekers and families.",
+    "content": "Palolem Beach is a pristine, crescent-shaped beach in South Goa known for being quieter and more relaxed than North Goa beaches. It is famous for silent noise parties where partygoers wear headphones, kayaking to Butterfly Island, dolphin spotting, and yoga retreats. The beach has gentle waves suitable for swimming and is lined with palm trees and beach huts. Ideal for peace seekers and families. Sunset views are spectacular.",
     "category": "beaches",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/palolem-beach"
   },
   {
+    "id": "vagator_beach",
+    "title": "Vagator Beach",
+    "content": "Vagator Beach in North Goa is known for its dramatic red cliffs, black rocks, and stunning sunset views. It is divided into Big Vagator and Little Vagator (Ozran Beach). Popular for its laid-back vibe, beach shacks, and proximity to Chapora Fort. The beach is less crowded than Baga and Calangute, making it ideal for those seeking tranquility with scenic beauty. Famous for Sunburn festival history and trance parties.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/vagator-beach"
+  },
+  {
+    "id": "morjim_beach",
+    "title": "Morjim Beach",
+    "content": "Morjim Beach, also called Turtle Beach, in North Goa is a serene beach known for Olive Ridley turtle nesting. It is quieter, clean, and popular with Russian tourists and bird watchers. The beach has white sand, shallow waters, and is great for swimming. Located near Ashwem and Mandrem, it offers a peaceful alternative to commercial beaches. The Morjim is also known for its Chapora River estuary and migratory birds.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/morjim-beach"
+  },
+  {
+    "id": "arambol_beach",
+    "title": "Arambol Beach",
+    "content": "Arambol Beach is the northernmost beach in Goa, known for its bohemian vibe, paragliding, and the sweet water lake. It attracts backpackers, yoga enthusiasts, and alternative lifestyle seekers. The beach has a long stretch of sand, drum circles at sunset, and live music. The nearby Arambol Mountain offers hiking with panoramic views. Famous for its weekly flea market and holistic healing centers.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/arambol-beach"
+  },
+  {
+    "id": "colva_beach",
+    "title": "Colva Beach",
+    "content": "Colva Beach is one of the oldest and largest beaches in South Goa, known for its 2.4km stretch of white sand, water sports, and vibrant shacks. Located 6km from Margao, it is popular with both domestic and international tourists. The beach is famous for the Our Lady of Merces Church and has a lively atmosphere in season. Ideal for swimming, sunbathing, and enjoying Goan seafood. Less commercialized than North Goa beaches.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/colva-beach"
+  },
+  {
+    "id": "benaulim_beach",
+    "title": "Benaulim Beach",
+    "content": "Benaulim Beach in South Goa is a tranquil beach known for its pristine sand, fishing village charm, and dolphin spotting. It is quieter than Colva, ideal for relaxation and long walks. The beach has traditional fishing boats, beach shacks serving fresh seafood, and is great for swimming. Nearby attractions include the St. John the Baptist Church. Perfect for families and those seeking authentic Goan coastal life.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/benaulim-beach"
+  },
+  {
+    "id": "agonda_beach",
+    "title": "Agonda Beach",
+    "content": "Agonda Beach is a secluded, pristine beach in South Goa, ranked among Asia's best for solitude. Known for its 3km stretch, soft sand, and as a nesting site for Olive Ridley turtles. It is ideal for yoga, meditation, and digital detox. No water sports, just pure tranquility. The beach has luxury huts and is great for swimming during calm season. Famous for its untouched beauty and lack of commercialization.",
+    "category": "beaches",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/agonda-beach"
+  },
+  {
     "id": "fort_aguada",
     "title": "Fort Aguada",
-    "content": "Fort Aguada is a historic Portuguese fort in Goa overlooking the Arabian Sea at Sinquerim. Built in 1612 to guard against Dutch and Maratha invasions, it is known for its well-preserved architecture, 13m high lighthouse built in 1864, and panoramic sea views. The fort housed a freshwater spring that gave water to passing ships - 'Aguada' means watery in Portuguese. Part of the fort is now a luxury hotel.",
+    "content": "Fort Aguada is a historic Portuguese fort in Goa overlooking the Arabian Sea at Sinquerim. Built in 1612 to guard against Dutch and Maratha invasions, it is known for its well-preserved architecture, 13m high lighthouse built in 1864, and panoramic sea views. The fort housed a freshwater spring that gave water to passing ships - 'Aguada' means watery in Portuguese. Part of the fort is now a luxury hotel. The lower fort houses Sinquerim Beach.",
     "category": "history",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/fort-aguada"
@@ -42,15 +90,31 @@
   {
     "id": "chapora_fort",
     "title": "Chapora Fort",
-    "content": "Chapora Fort is a historic fort in North Goa famous for panoramic views of Vagator Beach and the Arabian Sea. Built by the Portuguese in 1717 on the site of an older Muslim structure, it gained Bollywood fame from the movie Dil Chahta Hai. The fort is mostly in ruins but offers stunning sunset views, and the trek up is popular. It overlooks the Chapora River meeting the sea.",
+    "content": "Chapora Fort is a historic fort in North Goa famous for panoramic views of Vagator Beach and the Arabian Sea. Built by the Portuguese in 1717 on the site of an older Muslim structure, it gained Bollywood fame from the movie Dil Chahta Hai. The fort is mostly in ruins but offers stunning sunset views, and the trek up is popular. It overlooks the Chapora River meeting the sea. Best visited in evening for sunset.",
     "category": "history",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/chapora-fort"
   },
   {
+    "id": "basilica_bom_jesus",
+    "title": "Basilica of Bom Jesus",
+    "content": "Basilica of Bom Jesus is a UNESCO World Heritage Site in Old Goa, famous for housing the mortal remains of St. Francis Xavier. Built in 1605, it is one of the oldest churches in India and a prime example of Baroque architecture. The basilica has an ornate altar, marble floor, and is a major pilgrimage center. The Feast of St. Francis Xavier on Dec 3 attracts thousands. Nearby is Se Cathedral, one of Asia's largest churches.",
+    "category": "history",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/basilica-bom-jesus"
+  },
+  {
+    "id": "se_cathedral",
+    "title": "Se Cathedral",
+    "content": "Se Cathedral in Old Goa is one of the largest churches in Asia, dedicated to St. Catherine. Built in 1619 to commemorate Portuguese victory over Muslim army, it took 90 years to complete. Known for its Portuguese-Gothic architecture, massive bell (Golden Bell), and 15 altars. The cathedral is 250ft long and 181ft wide. It houses a baptismal font used by St. Francis Xavier. Part of UNESCO World Heritage churches of Goa.",
+    "category": "history",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/se-cathedral"
+  },
+  {
     "id": "goa_general",
     "title": "Goa",
-    "content": "Goa is a coastal state in western India, India's smallest state by area but richest by GDP per capita. Known for beaches, 450 years of Portuguese-influenced heritage, churches like Basilica of Bom Jesus (UNESCO site), temples, spice plantations, seafood including fish curry rice, nightlife, and cultural attractions. Population 1.5M. Capital Panaji. Best time to visit is November to February. Official language Konkani, but English widely spoken.",
+    "content": "Goa is a coastal state in western India, India's smallest state by area but richest by GDP per capita. Known for beaches, 450 years of Portuguese-influenced heritage, churches like Basilica of Bom Jesus (UNESCO site), temples, spice plantations, seafood including fish curry rice, nightlife, and cultural attractions. Population 1.5M. Capital Panaji. Best time to visit is November to February. Official language Konkani, but English widely spoken. Currency INR, but cards accepted widely.",
     "category": "general",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/goa"
@@ -58,7 +122,7 @@
   {
     "id": "north_goa",
     "title": "North Goa",
-    "content": "North Goa is the more commercialized and lively part of Goa, known for popular beaches like Baga, Calangute, Anjuna, Vagator, nightlife, water sports, beach shacks, flea markets at Anjuna and Mapusa, and historic attractions including Fort Aguada and Chapora Fort. It includes Panaji and Mapusa towns. Famous for clubs, casinos on Mandovi River, and vibrant backpacker culture. Better for party and activity seekers.",
+    "content": "North Goa is the more commercialized and lively part of Goa, known for popular beaches like Baga, Calangute, Anjuna, Vagator, nightlife, water sports, beach shacks, flea markets at Anjuna and Mapusa, and historic attractions including Fort Aguada and Chapora Fort. It includes Panaji and Mapusa towns. Famous for clubs, casinos on Mandovi River, and vibrant backpacker culture. Better for party and activity seekers. Average budget higher than South Goa.",
     "category": "general",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/north-goa"
@@ -66,7 +130,7 @@
   {
     "id": "south_goa",
     "title": "South Goa",
-    "content": "South Goa is known for quieter, cleaner beaches, scenic landscapes, luxury resorts, Portuguese-era churches, and a more relaxed atmosphere. Beaches include Palolem, Colva, Benaulim, Varca, and Agonda. Ideal for peace, yoga retreats, honeymoons, and families. Also known for Dudhsagar Falls, one of India's tallest waterfalls, spice farms, and heritage churches in Old Goa. Less commercialized than North Goa, with more greenery and tranquility.",
+    "content": "South Goa is known for quieter, cleaner beaches, scenic landscapes, luxury resorts, Portuguese-era churches, and a more relaxed atmosphere. Beaches include Palolem, Colva, Benaulim, Varca, and Agonda. Ideal for peace, yoga retreats, honeymoons, and families. Also known for Dudhsagar Falls, one of India's tallest waterfalls, spice farms, and heritage churches in Old Goa. Less commercialized than North Goa, with more greenery and tranquility. Better for relaxation seekers.",
     "category": "general",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/south-goa"
@@ -74,9 +138,89 @@
   {
     "id": "dudhsagar_falls",
     "title": "Dudhsagar Falls",
-    "content": "Dudhsagar Falls is one of India's tallest waterfalls at 310m, located on the Mandovi River in the Western Ghats on the Goa-Karnataka border. The name means 'Sea of Milk'. Best visited during monsoon (June-September) when flow is strongest. Accessible via trek or jeep safari from Mollem. Part of Bhagwan Mahavir Wildlife Sanctuary. The falls are famous for the railway track passing in front and being featured in Chennai Express movie.",
+    "content": "Dudhsagar Falls is one of India's tallest waterfalls at 310m, located on the Mandovi River in the Western Ghats on the Goa-Karnataka border. The name means 'Sea of Milk'. Best visited during monsoon (June-September) when flow is strongest. Accessible via trek or jeep safari from Mollem. Part of Bhagwan Mahavir Wildlife Sanctuary. The falls are famous for the railway track passing in front and being featured in Chennai Express movie. Trek is 14km from Kulem.",
     "category": "nature",
     "source": "Goa Tourism",
     "url": "https://goa-tourism.com/dudhsagar-falls"
+  },
+  {
+    "id": "spice_plantations",
+    "title": "Goa Spice Plantations",
+    "content": "Goa spice plantations in Ponda offer tours of organic farms growing cardamom, pepper, vanilla, cinnamon, cloves, and tropical fruits. Popular plantations include Sahakari, Savoi, and Tropical Spice Plantation. Tours include traditional Goan lunch, elephant rides (controversial), and insights into Ayurveda. Best visited in monsoon when spices are lush. The plantations showcase Goa's agricultural heritage beyond beaches, with guides explaining medicinal uses of spices.",
+    "category": "nature",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/spice-plantations"
+  },
+  {
+    "id": "goan_cuisine",
+    "title": "Goan Cuisine",
+    "content": "Goan cuisine is a blend of Konkani and Portuguese flavors, known for seafood, coconut, and spices. Famous dishes: Fish Curry Rice (Xit Codi), Prawn Balchao, Chicken Cafreal, Pork Vindaloo, Bebinca (dessert), Feni (cashew liquor). Beach shacks serve fresh catch, while Panjim has fine dining. Vegetarian options include Mushroom Xacuti and Tendli. The cuisine uses kokum, tamarind, and vinegar for tang. Best experienced at local homes, not just tourist shacks.",
+    "category": "culture",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/goan-cuisine"
+  },
+  {
+    "id": "goa_nightlife",
+    "title": "Goa Nightlife",
+    "content": "Goa nightlife is vibrant, especially in North Goa. Famous clubs: Tito's and Mambo's in Baga, Curlies in Anjuna, Leopard Valley in Agonda. Casinos on Mandovi River: Deltin Royale, Casino Pride. Beach parties, silent noise parties in Palolem (headphones), and trance parties in Anjuna. Night markets: Arpora Saturday Market. South Goa is quieter with resort bars. Legal drinking age 18, but loosely enforced. Best nights: Friday-Saturday, season Nov-Feb.",
+    "category": "culture",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/nightlife"
+  },
+  {
+    "id": "water_sports",
+    "title": "Water Sports in Goa",
+    "content": "Goa offers water sports at Baga, Calangute, and Colva beaches: parasailing (Rs 800-1200), jet skiing (Rs 300-500), banana boat, bumper ride, scuba diving at Grande Island (Rs 2000-3500), snorkeling, kayaking in Palolem and Chapora River, and white water rafting in Mhadei River (monsoon). Best season Nov-May, operators licensed by Goa Tourism. Safety: wear life jackets, check weather, avoid monsoon sea. Book via licensed shacks, not touts.",
+    "category": "activities",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/water-sports"
+  },
+  {
+    "id": "best_time_goa",
+    "title": "Best Time to Visit Goa",
+    "content": "Best time to visit Goa is November to February: pleasant weather 20-30°C, active shacks, festivals like Sunburn, Christmas, and Carnival. March-May is hot (35°C) but cheaper, good for off-season deals. June-September monsoon: lush green, waterfalls full, but beaches closed, shacks shut, heavy rain. Shoulder months October and March offer balance of weather and crowds. Peak: Dec 20-Jan 5, book 3 months ahead. Monsoon good for Dudhsagar and spice farms.",
+    "category": "travel",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/best-time-to-visit"
+  },
+  {
+    "id": "goa_transport",
+    "title": "Transportation in Goa",
+    "content": "Goa transportation: Rent scooters (Rs 300-500/day) or bikes, most popular for tourists. Cars: self-drive Rs 1200-2000/day. Taxis: expensive, no meters, negotiate. Buses: Kadamba public buses cheap but crowded. Ferries: free, connect Panaji to Betim. Nearest airport Dabolim (GOI) 30km from Panaji, new Mopa airport in North Goa. Trains: Madgaon and Vasco stations. No Uber/Ola, but GoaMiles app. Driving: left side, need license, wear helmet. Avoid driving drunk.",
+    "category": "travel",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/transportation"
+  },
+  {
+    "id": "hacker_house_goa",
+    "title": "Hacker House Goa",
+    "content": "Hacker House Goa is a tech event in Goa, India from 28-31 Oct 2026. It brings together developers, AI engineers, and builders for a 4-day intensive hacking, RAG workshops, and voice AI experiments. Located in North Goa near Baga Beach, it combines coding with Goan culture. Focus: Voice-enabled RAG, vector databases, grounded generation. Features: fast retrieval <200ms, grounded answers, built-in guardrails. Organized by Goa tech community, supported by Goa Tourism. Apply via official site.",
+    "category": "events",
+    "source": "Hacker House Goa",
+    "url": "https://hackerhouse.goa"
+  },
+  {
+    "id": "goa_culture",
+    "title": "Goan Culture and Festivals",
+    "content": "Goan culture blends Konkani and Portuguese: Carnival (Feb, 4 days, parades, King Momo), Shigmo (Holi, folk dances), Christmas (biggest festival, decorations, midnight mass), Sao Joao (June, jumping in wells), Ganesh Chaturthi, Diwali. Music: Fado, Mando, Konkani pop. Dance: Fugdi, Dhalo. Art: Azulejo tiles, terracotta. People: Goans are called Goenkars, known for susegad (relaxed) lifestyle. Languages: Konkani, Marathi, English, Hindi. Religion: 66% Hindu, 25% Christian, rest Muslim.",
+    "category": "culture",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/culture"
+  },
+  {
+    "id": "old_goa_churches",
+    "title": "Old Goa Churches",
+    "content": "Old Goa, 10km from Panaji, was capital of Portuguese India, now UNESCO site with 7 major churches: Basilica of Bom Jesus, Se Cathedral, Church of St. Francis of Assisi, Church of St. Cajetan, Church of Our Lady of Rosary, Ruins of St. Augustine. Known as 'Rome of the East' in 16th century. Best visited morning to avoid heat, 2-3 hours needed. Nearby: Archaeological Museum. The area reflects 450 years of Portuguese rule, with laterite stone architecture and baroque interiors. Entry free, but donations welcome.",
+    "category": "history",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/old-goa"
+  },
+  {
+    "id": "goa_shopping",
+    "title": "Shopping in Goa",
+    "content": "Goa shopping: Anjuna Flea Market (Wed, souvenirs, clothes, jewelry, 8am-sunset), Arpora Saturday Night Market (6pm-late, live music, food), Mapusa Friday Market (local produce, spices), Calangute Market (beachwear). Buy: cashew nuts, Feni, spices, handicrafts, Azulejo tiles, beachwear. Bargain 30-50%. Best: Anjuna for hippie stuff, Panjim for branded. Avoid: touts selling drugs. Payment: cash preferred, cards in malls. Best time: morning for less crowd, night market for vibe.",
+    "category": "travel",
+    "source": "Goa Tourism",
+    "url": "https://goa-tourism.com/shopping"
   }
 ]
