@@ -1,15 +1,23 @@
 {
-  "name": "hacker-house-goa-rag",
-  "version": "1.0.0",
+  "name": "voice-enabled-rag-modeled",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "npm run dev --workspace=server",
+    "dev:client": "npm run dev --workspace=client",
+    "build": "npm run build --workspace=client && npm run build --workspace=server",
+    "start": "npm run start --workspace=server",
+    "install:all": "npm install && npm install --workspace=server && npm install --workspace=client",
+    "test": "npm run test --workspace=server",
+    "lint": "echo 'No lint configured'"
   },
-  "dependencies": {
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "openai": "^5.19.1"
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }
