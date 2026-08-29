@@ -1,26 +1,50 @@
 /**
- * Vercel Serverless Entry for Full-Stack Deployment
- * 
- * If you want to deploy BOTH frontend + backend on Vercel:
- * 1. Set Root Directory to "." in Vercel dashboard
- * 2. Build Command: npm run build
- * 3. Output Directory: client/dist
- * 4. This file will be used as serverless function for /api/*
- * 
- * For separate deployment (recommended):
- * - Frontend on Vercel (client/)
- * - Backend on Render/Railway/Fly.io
- * Then update vercel.json rewrites to point to your backend URL
+ * Vercel Serverless Function - Full-Stack RAG API
+ * Handles all /api/* routes
  */
 
-import { createApp } from "../server/src/app.js";
+let appInstance = null;
+let initPromise = null;
 
-let app: any = null;
-
-export default async function handler(req: any, res: any) {
-  if (!app) {
-    const created = await createApp();
-    app = created.app;
+async function getApp() {
+  if (appInstance) return appInstance;
+  
+  if (!initPromise) {
+    initPromise = (async () => {
+      try {
+        // Try dist first (production build), fallback to src
+        let createApp;
+        try {
+          const mod = await import('../server/dist/app.js');
+          createApp = mod.createApp;
+        } catch {
+          const mod = await import('../server/src/app.js');
+          createApp = mod.createApp;
+        }
+        
+        const { app } = await createApp();
+        appInstance = app;
+        return app;
+      } catch (err) {
+        console.error('Failed to create app:', err);
+        throw err;
+      }
+    })();
   }
-  return app(req, res);
+  
+  return initPromise;
+}
+
+export default async function handler(req, res) {
+  try {
+    const app = await getApp();
+    return app(req, res);
+  } catch (err) {
+    console.error('API handler error:', err);
+    return res.status(500).json({
+      error: 'INTERNAL_ERROR',
+      message: 'Failed to initialize RAG service',
+      details: process.env.NODE_ENV === 'development' ? err.message : undefined
+    });
+  }
 }
